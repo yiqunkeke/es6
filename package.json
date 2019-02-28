@@ -1,0 +1,25 @@
+{
+  "name": "es6-learn",
+  "version": "1.0.0",
+  "description": "es6学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js",
+    "clean": "rimraf dist",
+    "dev": "cross-env NODE_ENV=developement webpack-dev-server --config build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/yiqianqian/es6-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
